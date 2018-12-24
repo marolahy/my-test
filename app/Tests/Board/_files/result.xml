@@ -1,0 +1,36 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <id>1</id>
+        <name>Randriamifidy Bezama</name>
+        <grades>
+            <name>Mathematic</name>
+            <ratio>3</ratio>
+            <grade>12</grade>
+        </grades>
+        <grades>
+            <name>Physics</name>
+            <ratio>3</ratio>
+            <grade>25</grade>
+        </grades>
+        <result>FAIL</result>
+        <average>6.17</average>
+    </student>
+    <student>
+        <id>2</id>
+        <name>Randriamifidy Tahiry</name>
+        <grades>
+            <name>Mathematic</name>
+            <ratio>3</ratio>
+            <grade>40</grade>
+        </grades>
+        <grades>
+            <name>Physics</name>
+            <ratio>3</ratio>
+            <grade>37</grade>
+        </grades>
+        <result>PASS</result>
+        <average>12.83</average>
+    </student>
+</students>

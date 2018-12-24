@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<students>
+  <student>
+    <name>Randriamifidy Bezama</name>
+    <id>1</id>
+    <courses>
+      <course>
+        <name>Mathematic</name>
+        <ratio>3</ratio>
+        <grade>12</grade>
+      </course>
+      <course>
+        <name>Physics</name>
+        <ratio>3</ratio>
+        <grade>25</grade>
+      </course>
+      <course>
+        <name>Science</name>
+        <ratio>3</ratio>
+        <grade>50</grade>
+      </course>
+      <course>
+        <name>Français</name>
+        <ratio>2</ratio>
+        <grade>16</grade>
+      </course>
+    </courses>
+  </student>
+  <student>
+    <name>Randriamifidy Tahiry</name>
+    <id>2</id>
+    <courses>
+      <course>
+        <name>Mathematic</name>
+        <ratio>3</ratio>
+        <grade>40</grade>
+      </course>
+      <course>
+        <name>Physics</name>
+        <ratio>3</ratio>
+        <grade>37</grade>
+      </course>
+      <course>
+        <name>Science</name>
+        <ratio>3</ratio>
+        <grade>45</grade>
+      </course>
+      <course>
+        <name>Français</name>
+        <ratio>2</ratio>
+        <grade>14</grade>
+      </course>
+    </courses>
+  </student>
+</students>

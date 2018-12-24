@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<root>
+    <one>bazbat</one>
+    <one foo="bar">bazbat</one>
+</root>

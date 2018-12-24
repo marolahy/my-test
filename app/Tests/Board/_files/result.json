@@ -1,0 +1,59 @@
+
+[
+    {
+        "id": 1,
+        "name": "Randriamifidy Bezama",
+        "grades": [
+            {
+                "name": "Mathematic",
+                "ratio": "3",
+                "grade": "12"
+            },
+            {
+                "name": "Physics",
+                "ratio": "3",
+                "grade": "25"
+            },
+            {
+                "name": "Science",
+                "ratio": "3",
+                "grade": "50"
+            },
+            {
+                "name": "Fran\u00e7ais",
+                "ratio": "2",
+                "grade": "16"
+            }
+        ],
+        "result": "PASS",
+        "average": 9.25
+    },
+    {
+        "id": 2,
+        "name": "Randriamifidy Tahiry",
+        "grades": [
+            {
+                "name": "Mathematic",
+                "ratio": "3",
+                "grade": "40"
+            },
+            {
+                "name": "Physics",
+                "ratio": "3",
+                "grade": "37"
+            },
+            {
+                "name": "Science",
+                "ratio": "3",
+                "grade": "45"
+            },
+            {
+                "name": "Fran\u00e7ais",
+                "ratio": "2",
+                "grade": "14"
+            }
+        ],
+        "result": "PASS",
+        "average": 11.92
+    }
+]

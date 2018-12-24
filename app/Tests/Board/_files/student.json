@@ -1,0 +1,60 @@
+{
+    "student": [
+      {
+        "name": "Randriamifidy Bezama",
+        "id": "1",
+        "courses": {
+          "course": [
+            {
+              "name": "Mathematic",
+              "ratio": "3",
+              "grade": "12"
+            },
+            {
+              "name": "Physics",
+              "ratio": "3",
+              "grade": "25"
+            },
+            {
+              "name": "Science",
+              "ratio": "3",
+              "grade": "50"
+            },
+            {
+              "name": "Français",
+              "ratio": "2",
+              "grade": "16"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Randriamifidy Tahiry",
+        "id": "2",
+        "courses": {
+          "course": [
+            {
+              "name": "Mathematic",
+              "ratio": "3",
+              "grade": "40"
+            },
+            {
+              "name": "Physics",
+              "ratio": "3",
+              "grade": "37"
+            },
+            {
+              "name": "Science",
+              "ratio": "3",
+              "grade": "45"
+            },
+            {
+              "name": "Français",
+              "ratio": "2",
+              "grade": "14"
+            }
+          ]
+        }
+      }
+    ]
+}

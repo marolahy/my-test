@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+    <title>CSM</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+    body {
+  padding : 10px ;
+
+}
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container"><h1>CSM test  </h1></div>
+<div id="exTab1" class="container">
+<ul  class="nav nav-pills">
+			<li class="active">
+        <a  href="#csm" data-toggle="tab">CSM</a>
+			</li>
+			<li><a href="#csmb" data-toggle="tab">CSMB</a>
+			</li>
+		</ul>
+
+			<div class="tab-content clearfix">
+			  <div class="tab-pane active" id="csm">
+            <form action="csm.php" method="post" enctype="multipart/form-data">
+              <div class="form-group">
+                <label for="fileCsm">File</label>
+                <input type="file" name="file" id="fileCsm" accept=".json,application/json" />
+                <small id="emailHelp" class="form-text text-muted">Upload file.</small>
+              </div>
+              <button type="submit" class="btn btn-primary" value="sent">Submit</button>
+            </form>
+				</div>
+				<div class="tab-pane" id="csmb">
+          <form action="csmb.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="fileCsm">File</label>
+              <input type="file" name="file" id="fileCsm" accept=".xml,application/xml" />
+              <small id="emailHelp" class="form-text text-muted">Upload file.</small>
+            </div>
+            <button type="submit" class="btn btn-primary" value="sent">Submit</button>
+          </form>
+				</div>
+
+			</div>
+  </div>
+
+
+
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
