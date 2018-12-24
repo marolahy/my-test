@@ -4,16 +4,16 @@ use MindGeek\Utils\ArrayUtils;
 class Factory
 {
     /**
-     * Plugin manager for loading readers
+     * for loading readers
      *
-     * @var null|ContainerInterface
+     * @var null|ReaderManager
      */
     public static $readers = null;
 
     /**
-     * Plugin manager for loading Renders
+     * for loading Renders
      *
-     * @var null|ContainerInterface
+     * @var null|RenderManager
      */
     public static $renders = null;
 
@@ -219,7 +219,7 @@ class Factory
      * If none is available, registers and returns a
      * RenderManager instance by default.
      *
-     * @return ContainerInterface
+     * @return RenderManager
      */
     public static function getRenderManager()
     {

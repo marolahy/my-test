@@ -5,9 +5,21 @@ namespace MindGeek\Model;
 final class Student
 {
 
+   /**
+    * @var int
+    */
     private $id;
+    /**
+     * @var string
+     */
     private $name;
+    /**
+     * @var array of object
+     */
     private $grades = [];
+    /**
+     * @var string
+     */
     private $result;
     public function getId()
     {
